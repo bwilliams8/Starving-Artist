@@ -137,15 +137,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mountains-clouds-forest-fog" translatesAutoresizingMaskIntoConstraints="NO" id="36k-Vj-oLd">
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mountains-clouds-forest-fog" translatesAutoresizingMaskIntoConstraints="NO" id="36k-Vj-oLd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view alpha="0.59999999999999998" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pdo-fa-ko4" customClass="RoundView" customModule="Brian_Williams_Individual_App" customModuleProvider="target">
-                                <rect key="frame" x="39" y="80" width="296" height="526"/>
+                            <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pdo-fa-ko4" customClass="RoundView" customModule="Brian_Williams_Individual_App" customModuleProvider="target">
+                                <rect key="frame" x="39" y="70" width="296" height="526"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Artist:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afM-pZ-IHo">
-                                        <rect key="frame" x="99" y="34" width="99" height="27"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afM-pZ-IHo">
+                                        <rect key="frame" x="92.5" y="34" width="112" height="30.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="afM-pZ-IHo" secondAttribute="height" multiplier="11:3" id="53N-2m-RGo"/>
                                         </constraints>
@@ -153,8 +153,8 @@
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Best Known For:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qg-KP-Xcs">
-                                        <rect key="frame" x="51" y="124" width="195" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Known For:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qg-KP-Xcs">
+                                        <rect key="frame" x="24.5" y="119.5" width="248" height="30.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3qg-KP-Xcs" secondAttribute="height" multiplier="65:8" id="mxg-Sc-Kro"/>
                                         </constraints>
@@ -162,8 +162,8 @@
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="PsychicPebbles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rD-Fz-JR8">
-                                        <rect key="frame" x="8" y="69" width="280" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PsychicPebbles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rD-Fz-JR8">
+                                        <rect key="frame" x="8" y="72.5" width="280" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="1rD-Fz-JR8" secondAttribute="height" multiplier="140:17" id="lSv-7Z-SLL"/>
                                         </constraints>
@@ -171,8 +171,8 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Zach Hadel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSv-58-MjW">
-                                        <rect key="frame" x="8" y="90" width="280" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zach Hadel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSv-58-MjW">
+                                        <rect key="frame" x="41" y="93.5" width="214" height="26"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="WSv-58-MjW" secondAttribute="height" multiplier="140:17" id="7aD-MA-23f"/>
                                         </constraints>
@@ -180,14 +180,16 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="hellbenders" translatesAutoresizingMaskIntoConstraints="NO" id="ro9-8f-bbn">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hellbenders" translatesAutoresizingMaskIntoConstraints="NO" id="ro9-8f-bbn">
                                         <rect key="frame" x="23" y="226" width="250" height="250"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ro9-8f-bbn" secondAttribute="height" multiplier="1:1" id="lg1-Kx-Z0S"/>
+                                            <constraint firstAttribute="height" constant="250" id="o0Y-AW-pzw"/>
+                                            <constraint firstAttribute="width" constant="250" id="xH1-iv-Prd"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hellbenders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mx1-Kn-lQL">
-                                        <rect key="frame" x="8" y="156" width="280" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hellbenders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mx1-Kn-lQL">
+                                        <rect key="frame" x="8" y="158" width="280" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="mx1-Kn-lQL" secondAttribute="height" multiplier="140:17" id="rkL-bm-Tj8"/>
                                         </constraints>
@@ -199,14 +201,21 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
+                                    <constraint firstItem="afM-pZ-IHo" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="2eH-WR-SDr"/>
                                     <constraint firstItem="1rD-Fz-JR8" firstAttribute="top" secondItem="afM-pZ-IHo" secondAttribute="bottom" constant="8" id="46w-44-h0w"/>
                                     <constraint firstItem="WSv-58-MjW" firstAttribute="top" secondItem="afM-pZ-IHo" secondAttribute="bottom" constant="29" id="5bc-bP-npX"/>
+                                    <constraint firstItem="mx1-Kn-lQL" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="63Q-RF-cA8"/>
+                                    <constraint firstItem="WSv-58-MjW" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="6gs-UI-nR6"/>
+                                    <constraint firstItem="ro9-8f-bbn" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="8Hv-hU-6Sq"/>
                                     <constraint firstItem="3qg-KP-Xcs" firstAttribute="top" secondItem="WSv-58-MjW" secondAttribute="bottom" id="DTR-V1-MOm"/>
+                                    <constraint firstAttribute="width" constant="296" id="NHR-MQ-Yux"/>
                                     <constraint firstItem="afM-pZ-IHo" firstAttribute="top" secondItem="Pdo-fa-ko4" secondAttribute="top" constant="34" id="bsM-bH-k9u"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="ro9-8f-bbn" secondAttribute="bottom" constant="42" id="fmF-tK-0kj"/>
                                     <constraint firstItem="mx1-Kn-lQL" firstAttribute="top" secondItem="3qg-KP-Xcs" secondAttribute="bottom" constant="8" id="gbO-Ej-E9c"/>
+                                    <constraint firstItem="1rD-Fz-JR8" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="h5c-Dc-bUf"/>
+                                    <constraint firstItem="3qg-KP-Xcs" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="lRJ-x6-ah3"/>
                                     <constraint firstAttribute="width" secondItem="Pdo-fa-ko4" secondAttribute="height" multiplier="148:263" id="lxm-G7-WdK"/>
-                                    <constraint firstAttribute="width" secondItem="Pdo-fa-ko4" secondAttribute="height" multiplier="148:263" id="xjr-wl-XVZ"/>
+                                    <constraint firstAttribute="height" constant="526" id="lzC-I9-LpW"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -223,8 +232,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Pdo-fa-ko4" firstAttribute="centerX" secondItem="hkH-XL-CGc" secondAttribute="centerX" id="VuV-jO-iEB"/>
-                            <constraint firstItem="Pdo-fa-ko4" firstAttribute="centerY" secondItem="hkH-XL-CGc" secondAttribute="centerY" id="xH8-9E-Ko6"/>
+                            <constraint firstItem="Hdh-tW-VRq" firstAttribute="trailing" secondItem="Pdo-fa-ko4" secondAttribute="trailing" constant="40" id="9QD-kS-Xcu"/>
+                            <constraint firstItem="Hdh-tW-VRq" firstAttribute="bottom" secondItem="Pdo-fa-ko4" secondAttribute="bottom" constant="71" id="hYc-EB-hEA"/>
+                            <constraint firstItem="Pdo-fa-ko4" firstAttribute="top" secondItem="Hdh-tW-VRq" secondAttribute="top" constant="6" id="lCt-M7-dXR"/>
+                            <constraint firstItem="Pdo-fa-ko4" firstAttribute="leading" secondItem="Hdh-tW-VRq" secondAttribute="leading" constant="39" id="v9G-uA-9Lf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Hdh-tW-VRq"/>
                     </view>
