@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16DE228A204DEFCE00DA1E19 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE2289204DEFCE00DA1E19 /* RoundView.swift */; };
 		16ECE1C5204CA7510091707F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ECE1C4204CA7510091707F /* AppDelegate.swift */; };
 		16ECE1C7204CA7510091707F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ECE1C6204CA7510091707F /* ViewController.swift */; };
 		16ECE1CA204CA7510091707F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16ECE1C8204CA7510091707F /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DE2289204DEFCE00DA1E19 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		16ECE1C1204CA7510091707F /* Brian Williams Individual App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brian Williams Individual App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16ECE1C4204CA7510091707F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16ECE1C6204CA7510091707F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				16ECE1D0204CA7510091707F /* Info.plist */,
 				16ECE1F8204CB7EF0091707F /* RoundButton.swift */,
 				16ECE1FA204CC49E0091707F /* ViewController2.swift */,
+				16DE2289204DEFCE00DA1E19 /* RoundView.swift */,
 			);
 			path = "Brian Williams Individual App";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				16ECE1FB204CC49E0091707F /* ViewController2.swift in Sources */,
 				16ECE1C7204CA7510091707F /* ViewController.swift in Sources */,
 				16ECE1C5204CA7510091707F /* AppDelegate.swift in Sources */,
+				16DE228A204DEFCE00DA1E19 /* RoundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
