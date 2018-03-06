@@ -163,7 +163,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PsychicPebbles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rD-Fz-JR8">
-                                        <rect key="frame" x="8" y="72.5" width="280" height="34"/>
+                                        <rect key="frame" x="8" y="64.5" width="280" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="1rD-Fz-JR8" secondAttribute="height" multiplier="140:17" id="lSv-7Z-SLL"/>
                                         </constraints>
@@ -197,12 +197,16 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thumbup" translatesAutoresizingMaskIntoConstraints="NO" id="erg-Kk-C5r">
+                                        <rect key="frame" x="28" y="231" width="240" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="afM-pZ-IHo" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="2eH-WR-SDr"/>
-                                    <constraint firstItem="1rD-Fz-JR8" firstAttribute="top" secondItem="afM-pZ-IHo" secondAttribute="bottom" constant="8" id="46w-44-h0w"/>
+                                    <constraint firstItem="1rD-Fz-JR8" firstAttribute="top" secondItem="afM-pZ-IHo" secondAttribute="bottom" id="46w-44-h0w"/>
                                     <constraint firstItem="WSv-58-MjW" firstAttribute="top" secondItem="afM-pZ-IHo" secondAttribute="bottom" constant="29" id="5bc-bP-npX"/>
                                     <constraint firstItem="mx1-Kn-lQL" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="63Q-RF-cA8"/>
                                     <constraint firstItem="WSv-58-MjW" firstAttribute="centerX" secondItem="Pdo-fa-ko4" secondAttribute="centerX" id="6gs-UI-nR6"/>
@@ -246,6 +250,7 @@
                         <outlet property="artistRealName" destination="WSv-58-MjW" id="YqK-nj-3pR"/>
                         <outlet property="artistUsername" destination="1rD-Fz-JR8" id="GMm-O6-HdY"/>
                         <outlet property="backgroundImage" destination="36k-Vj-oLd" id="oc4-OR-hUW"/>
+                        <outlet property="thumbImageView" destination="erg-Kk-C5r" id="Lw5-Oo-ycg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rik-a4-cp1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -280,5 +285,6 @@
         <image name="hellbenders" width="1280" height="720"/>
         <image name="mountains-clouds-forest-fog" width="1920" height="1200"/>
         <image name="multimedia" width="64" height="64"/>
+        <image name="thumbup" width="900" height="900"/>
     </resources>
 </document>
