@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         titleText.alpha = 0
         descriptionText.alpha = 0
         loginButton.alpha = 0
+        
+        // Begin with everything invisible.
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -31,9 +33,12 @@ class ViewController: UIViewController {
         
         UIView.animate(withDuration: 0.5, animations: {
             self.backgroundImage.alpha = 0.5
+            //Animates the background in over half a second
         }) { (true) in
+            //Once animation has completed successfully:
             UIView.animate(withDuration: 0.5, animations: {
                 self.titleText.alpha = 1
+                //Animates the title in over half a second. Same process is used further, no need to explain.
             }, completion: { (true) in
                 UIView.animate(withDuration: 0.5, animations: {
                     self.descriptionText.alpha = 1

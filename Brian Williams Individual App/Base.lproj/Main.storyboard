@@ -140,6 +140,9 @@
                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mountains-clouds-forest-fog" translatesAutoresizingMaskIntoConstraints="NO" id="36k-Vj-oLd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                </accessibility>
                             </imageView>
                             <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pdo-fa-ko4" customClass="RoundView" customModule="Brian_Williams_Individual_App" customModuleProvider="target">
                                 <rect key="frame" x="39" y="70" width="296" height="526"/>
@@ -233,12 +236,38 @@
                                     <outletCollection property="gestureRecognizers" destination="n7l-XN-VIW" appends="YES" id="he0-jL-aqR"/>
                                 </connections>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="XZc-gj-I1k">
+                                <rect key="frame" x="39" y="604" width="50" height="50"/>
+                                <color key="tintColor" red="0.074704009919999995" green="0.46271628840000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XZc-gj-I1k" secondAttribute="height" multiplier="1:1" id="Yvj-aM-1HT"/>
+                                    <constraint firstAttribute="width" constant="50" id="hX0-fS-aRb"/>
+                                    <constraint firstAttribute="height" constant="50" id="qy6-si-0Sq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patreon" translatesAutoresizingMaskIntoConstraints="NO" id="rKq-YU-4K6">
+                                <rect key="frame" x="285" y="604" width="50" height="50"/>
+                                <color key="tintColor" red="1" green="0.68286641830000006" blue="0.29997557940000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1ac-wq-0yW"/>
+                                    <constraint firstAttribute="width" secondItem="rKq-YU-4K6" secondAttribute="height" multiplier="1:1" id="dWA-AL-B04"/>
+                                    <constraint firstAttribute="width" constant="50" id="jcf-SS-XHT"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="XZc-gj-I1k" firstAttribute="leading" secondItem="Hdh-tW-VRq" secondAttribute="leading" constant="39" id="8HK-nG-fiR"/>
                             <constraint firstItem="Hdh-tW-VRq" firstAttribute="trailing" secondItem="Pdo-fa-ko4" secondAttribute="trailing" constant="40" id="9QD-kS-Xcu"/>
+                            <constraint firstItem="Hdh-tW-VRq" firstAttribute="bottom" secondItem="rKq-YU-4K6" secondAttribute="bottom" constant="13" id="BeW-6L-Lnm"/>
+                            <constraint firstItem="rKq-YU-4K6" firstAttribute="top" secondItem="Pdo-fa-ko4" secondAttribute="bottom" constant="8" id="FLK-Oi-6up"/>
+                            <constraint firstItem="Hdh-tW-VRq" firstAttribute="bottom" secondItem="XZc-gj-I1k" secondAttribute="bottom" constant="13" id="FQy-MW-zGT"/>
+                            <constraint firstItem="rKq-YU-4K6" firstAttribute="leading" secondItem="XZc-gj-I1k" secondAttribute="trailing" constant="196" id="GQb-mr-pul"/>
+                            <constraint firstItem="XZc-gj-I1k" firstAttribute="top" secondItem="Pdo-fa-ko4" secondAttribute="bottom" constant="8" id="Qmc-uR-NXY"/>
+                            <constraint firstItem="Hdh-tW-VRq" firstAttribute="trailing" secondItem="rKq-YU-4K6" secondAttribute="trailing" constant="40" id="XvX-rU-vzR"/>
                             <constraint firstItem="Hdh-tW-VRq" firstAttribute="bottom" secondItem="Pdo-fa-ko4" secondAttribute="bottom" constant="71" id="hYc-EB-hEA"/>
                             <constraint firstItem="Pdo-fa-ko4" firstAttribute="top" secondItem="Hdh-tW-VRq" secondAttribute="top" constant="6" id="lCt-M7-dXR"/>
+                            <constraint firstItem="rKq-YU-4K6" firstAttribute="leading" secondItem="XZc-gj-I1k" secondAttribute="trailing" constant="196" id="tfN-VY-0kQ"/>
                             <constraint firstItem="Pdo-fa-ko4" firstAttribute="leading" secondItem="Hdh-tW-VRq" secondAttribute="leading" constant="39" id="v9G-uA-9Lf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Hdh-tW-VRq"/>
@@ -285,6 +314,8 @@
         <image name="hellbenders" width="1280" height="720"/>
         <image name="mountains-clouds-forest-fog" width="1920" height="1200"/>
         <image name="multimedia" width="64" height="64"/>
+        <image name="patreon" width="512" height="512"/>
         <image name="thumbup" width="900" height="900"/>
+        <image name="twitter" width="981" height="676"/>
     </resources>
 </document>

@@ -9,8 +9,9 @@
 import UIKit
 
     @IBDesignable
-
     class RoundView: UIView {
+        
+        //This custom class is used to make the artist card on the second screen appear less sharp. Corner Radius determines exactly that, the corner radius. The larger the number, the rounder the shape. Border width and border color determine how the border of the view looks.
         
         @IBInspectable var cornerRadius: CGFloat = 0 {
             didSet {
